@@ -1,5 +1,5 @@
 import React from "react";
-import "App.css";
+import "./App.css";
 import footerLogo from '../assets/skull.gif';
 import { Link } from 'react-router-dom';
 

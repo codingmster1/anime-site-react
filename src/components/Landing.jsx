@@ -3,7 +3,7 @@ import Search from "./ui/Search";
 import Anime from "./ui/Anime";
 import Loading from "./ui/Loading";
 import mainImg from '../assets/skull-knight.gif';
-import "App.css";
+import "./App.css";
 
 function Landing({ searchRedirect }) {
   const [trendingList, setTrending] = useState([]);

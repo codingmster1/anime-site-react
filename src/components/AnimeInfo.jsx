@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loading from "./ui/Loading";
-import "App.css";
+import "./App.css";
 
 function AnimeInfo() {
   const { id } = useParams();

@@ -1,0 +1,16 @@
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6700f;
+    font-size: 40px;
+  }
+  
+  .fa-spinner {
+    animation: rotate 800ms infinite linear;
+    display: none !important;
+  }
+
+  .loading .fa-spinner {
+    display: block !important;
+  }

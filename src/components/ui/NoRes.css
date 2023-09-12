@@ -1,0 +1,11 @@
+/* no results */
+
+.nores{
+    height: 500px;
+  }
+  
+  .nores__para {
+    margin-top: 40px;
+    color: #e6700f;
+    font-size: 24px;
+  }

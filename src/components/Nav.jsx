@@ -1,5 +1,5 @@
 import React from "react";
-import 'App.css';
+import './App.css';
 import navLogo from '../assets/2_all-the-anime-logo.png';
 import navLogo2 from '../assets/behelit.png';
 import { Link } from "react-router-dom";

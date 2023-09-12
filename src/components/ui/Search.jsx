@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-import "App.css";
+import "./Search.css";
 
 function Search({ searchRedirect }) {
   return (
