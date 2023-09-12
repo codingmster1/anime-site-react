@@ -1,4 +1,4 @@
-import "App.css";
+import "./SearchRes.css";
 import Loading from "./ui/Loading";
 import Anime from "./ui/Anime";
 import { useEffect, useState } from "react";
