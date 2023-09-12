@@ -4,7 +4,7 @@ import navLogo from '../assets/2_all-the-anime-logo.png';
 import navLogo2 from '../assets/behelit.png';
 import { Link } from "react-router-dom";
 
-function NavBar() {
+function Nav() {
   return (
     <div className="nav" id="nav">
       <div className="nav__container">
@@ -49,4 +49,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Nav;

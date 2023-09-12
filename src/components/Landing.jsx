@@ -15,13 +15,12 @@ function Landing({ searchRedirect }) {
   const popular = "POPULARITY_DESC";
 
   async function getData(option) {
-    // Here we define how many results to retrieve
     const variables = {
       page: 1,
       perPage: 8,
     };
 
-    // Here we define our query as a multi-line string
+
     const query = `
     query ($id: Int, $page: Int, $perPage: Int, $search: String) {
       Page(page: $page, perPage: $perPage) {
@@ -55,7 +54,7 @@ function Landing({ searchRedirect }) {
     
   `;
 
-    // Define the config we'll need for our Api request
+   
     const url = "https://graphql.anilist.co";
 
     const options = {
@@ -81,7 +80,6 @@ function Landing({ searchRedirect }) {
       console.error(error);
     }
 
-    // Make the HTTP Api request
     let data = await fetch(url, options)
       .then(handleResponse)
       .catch(handleError);
