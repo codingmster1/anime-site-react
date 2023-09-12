@@ -2,13 +2,13 @@ import React from "react";
 import './Nav.css';
 import navLogo from '../assets/2_all-the-anime-logo.png';
 import navLogo2 from '../assets/behelit.png';
-import { Link } from "react-router-dom";
+
 
 function Nav() {
   return (
     <div className="nav" id="nav">
       <div className="nav__container">
-        <Link to="/#nav">
+        <a href="/#nav">
           <figure className="nav__logo--wrapper">
             <img
               src={navLogo}
@@ -21,27 +21,27 @@ function Nav() {
             alt=""
             />
           </figure>
-        </Link>
+        </a>
         <div className="nav__link--list">
           <div className="nav__link">
-            <Link to="/#nav" className="nav__link--anchor link__hover">
+            <a href="/#nav" className="nav__link--anchor link__hover">
               Home
-            </Link>
+            </a>
           </div>
           <div className="nav__link">
-            <Link to href="/#search" className="nav__link--anchor link__hover">
+            <a href="/#search" className="nav__link--anchor link__hover">
               Search
-            </Link>
+            </a>
           </div>
           <div className="nav__link">
-            <Link to="/#trending" className="nav__link--anchor link__hover">
+            <a href="/#trending" className="nav__link--anchor link__hover">
               Trending
-            </Link>
+            </a>
           </div>
           <div className="nav__link">
-            <Link to="/#popular" className="nav__link--anchor link__hover">
+            <a href="/#popular" className="nav__link--anchor link__hover">
               Popular
-            </Link>
+            </a>
           </div>
         </div>
       </div>

@@ -116,7 +116,7 @@ function Landing({ searchRedirect }) {
           </figure>
         
 
-        <h1 className="title">The best one-stop anime search engine.</h1>
+        <h1 className="title">All the Anime. One Search Engine</h1>
       </div>
 
       <section id="search">
