@@ -1,5 +1,5 @@
 import React from "react";
-import "../src/App.css";
+import "Anime.css";
 import { Link } from "react-router-dom";
 
 function Anime({ title, cover, id }) {
