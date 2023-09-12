@@ -4,7 +4,7 @@ import footerLogo from '../assets/skull.gif';
 
 const  Footer = () => {
   return (
-    <>
+   
     <div className="footer">
       <div className="container">
         <div className="row">
@@ -50,7 +50,7 @@ const  Footer = () => {
         </div>
       </div>
     </div>
-    </>
+   
   );
 }
 
