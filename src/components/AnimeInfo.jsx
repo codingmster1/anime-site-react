@@ -35,12 +35,12 @@ function AnimeInfo() {
       }
     `;
 
-    // Define our query variables and values that will be used in the query request
+   
     const variables = {
       id: `${id}`,
     };
 
-    // Define the config we'll need for our Api request
+   
     const url = "https://graphql.anilist.co";
 
     const options = {
@@ -55,7 +55,7 @@ function AnimeInfo() {
       }),
     };
 
-    // API code to retrieve data and handle errors
+   
     function handleResponse(response) {
       return response.json().then(function (json) {
         return response.ok ? json : Promise.reject(json);
@@ -67,7 +67,7 @@ function AnimeInfo() {
       console.error(error);
     }
 
-    // Make the HTTP Api request
+  
     let data = await fetch(url, options)
       .then(handleResponse)
       .catch(handleError);
