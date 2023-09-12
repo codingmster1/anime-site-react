@@ -3,6 +3,7 @@ import "App.css";
 import footerLogo from '../assets/skull.gif';
 import { Link } from 'react-router-dom';
 
+
 const  Footer = () => {
   return (
    
@@ -21,7 +22,7 @@ const  Footer = () => {
             </Link>
             <div className="footer__link--list">
               <div className="footer__link">
-                <Link to="/#nav" className="footer__link--anchor link__hover">
+                <Link to ="/#nav" className="footer__link--anchor link__hover">
                   Home
                 </Link>
               </div>
@@ -39,7 +40,7 @@ const  Footer = () => {
                 </Link>
               </div>
               <div className="footer__link">
-                <Link to="#popular" className="footer__link--anchor link__hover">
+                <Link to ="#popular" className="footer__link--anchor link__hover">
                   Popular
                 </Link>
               </div>

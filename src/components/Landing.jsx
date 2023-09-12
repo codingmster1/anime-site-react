@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Search from "./ui/Search";
 import Anime from "./ui/Anime";
 import Loading from "./ui/Loading";
-import {mainImg} from '../assets/skull-knight.gif';
+import mainImg from '../assets/skull-knight.gif';
 import "App.css";
 
 function Landing({ searchRedirect }) {
