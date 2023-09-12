@@ -314,6 +314,12 @@ html {
       max-width: 300px;
 
     }
+    .nav__logo 
+    {
+     
+    height: 25px;
+    width: 100px;
+    }
    
   
     .search__form {
