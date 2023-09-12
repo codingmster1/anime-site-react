@@ -43,6 +43,9 @@ function Landing({ searchRedirect }) {
           trending
           description
           siteUrl
+          trailer {
+            thumbnail
+          }
           startDate {
             year
             month
