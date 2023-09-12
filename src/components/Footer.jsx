@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import footerLogo from '../assets/skull.gif';
-import { Link } from 'react-router-dom';
+
 
 
 const  Footer = () => {
@@ -11,7 +11,7 @@ const  Footer = () => {
       <div className="container">
         <div className="row">
           <div className="footer__container">
-            <Link to="/#nav">
+            <a href="/#nav">
               <figure className="footer__logo--wrapper">
                 <img
                   src={footerLogo}
@@ -19,30 +19,30 @@ const  Footer = () => {
                   alt=""
                 />
               </figure>
-            </Link>
+            </a>
             <div className="footer__link--list">
               <div className="footer__link">
-                <Link to ="/#nav" className="footer__link--anchor link__hover">
+                <a href ="/#nav" className="footer__link--anchor link__hover">
                   Home
-                </Link>
+                </a>
               </div>
               <div className="footer__link">
-                <Link to="/#search" className="footer__link--anchor link__hover">
+                <a href="/#search" className="footer__link--anchor link__hover">
                   Search
-                </Link>
+                </a>
               </div>
               <div className="footer__link">
                 
-                  <Link to="/#trending"
+                  <a href="/#trending"
                   className="footer__link--anchor link__hover"
                 >
                   Trending
-                </Link>
+                </a>
               </div>
               <div className="footer__link">
-                <Link to ="#popular" className="footer__link--anchor link__hover">
+                <a href ="#popular" className="footer__link--anchor link__hover">
                   Popular
-                </Link>
+                </a>
               </div>
             </div>
             <div className="footer__copyright">

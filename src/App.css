@@ -310,6 +310,11 @@ html {
     .title {
       font-size: 32px;
     }
+    .anime-img--wrapper{
+      max-width: 300px;
+
+    }
+   
   
     .search__form {
       justify-content: center;
@@ -326,15 +331,16 @@ html {
     .nav__link {
       display: none;
     }
+    .nav__link:nth-child(2) {
+      display: block;
+    }
     .nav__logo 
     {
       width: 120px;
       height: 20px;
     }
   
-    .nav__link:nth-child(1) {
-      display: block;
-    }
+   
   
     .header__container {
       padding: 20px;
