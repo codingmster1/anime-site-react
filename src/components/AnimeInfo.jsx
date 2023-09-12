@@ -79,7 +79,7 @@ function AnimeInfo() {
     setTimeout(() => {
       getInfo();
     }, 1000);
-    
+     // eslint-disable-next-line
   }, []);
 
   return info ? (
