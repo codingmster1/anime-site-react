@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
+
 import "./Search.css";
 
 function Search({ searchRedirect }) {
@@ -16,7 +17,7 @@ function Search({ searchRedirect }) {
             required
           />
           <button className="search__button">
-          <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" 
+          <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" bounce size="xl" style={{color: "#f37e12",}} 
           className="search__button--icon"/>
            
           </button>
