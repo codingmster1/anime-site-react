@@ -350,9 +350,11 @@ html {
       width: 120px;
       height: 20px;
     }
-  
-   
-  
+    .nav__logo 
+    {
+      width: 120px;
+      height: 20px;
+    }
     .header__container {
       padding: 20px;
     }
