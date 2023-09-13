@@ -58,7 +58,7 @@ function App() {
     const variables = {
       search: `${searchTerm}`,
       page: 1,
-      perPage: 8,
+      perPage: 5,
     };
 
     
