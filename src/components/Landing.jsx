@@ -17,7 +17,7 @@ function Landing({ searchRedirect }) {
   async function getData(option) {
     const variables = {
       page: 1,
-      perPage: 32, // bigger homepage selection
+      perPage: 24, // bigger homepage selection
     };
 
 
