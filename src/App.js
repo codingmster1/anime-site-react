@@ -58,7 +58,7 @@ function App() {
     const variables = {
       search: `${searchTerm}`,
       page: 1,
-      perPage: 5,
+      perPage: 5, // small digit to hide unneeded null results
     };
 
     
